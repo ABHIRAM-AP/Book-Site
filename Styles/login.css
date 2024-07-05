@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.login-container {
+  background: linear-gradient(to top, red, blue), linear-gradient(to right, #5500ff, #00ff55);
+    background-blend-mode: screen;
+    width: 376px;
+    height: 467px;
+    border-radius: 77px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 93px 70px;
+    margin-bottom:0;
+}
+
+img.logo {
+  margin-top: -90px;
+  height: 395px;
+  width: 425px;
+  margin-bottom: 5px;
+}
+
+.username-container,
+.password-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Adjusted margin for spacing */
+}
+
+.text-box {
+  width: 80%;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.015);
+  font-size: 17px;
+  font-family: Roboto Condensed, Arial;
+  font-weight: 500;
+}
+
+.log-in {
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  background-color: #28a745;
+  border-radius: 20px;
+  margin-top: 30px; /* Adjusted margin for spacing */
+  transition: background-color 0.3s;
+}
+
+.log-in:hover {
+  color: rgb(10, 94, 162);
+  background-color: white;
+}

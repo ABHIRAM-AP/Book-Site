@@ -1,0 +1,69 @@
+body{
+  background-color: #ffebcd;
+ 
+}
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  padding: 1rem;
+  margin-left:143px;
+}
+
+.book-item {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius:63px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.book-item img {
+  width: 189px;
+  max-width: 100%;
+  height: 248px;
+}
+.book-title{
+  font-family:Roboto Condensed, Arial;
+  font-size:20px;
+  font-weight: bold;
+  color:#333333;
+}
+
+.buy-now{
+  color:white;
+  font-family:Roboto Condensed,Arial;
+  font-size:17px;
+  background-color:#bc4b51;
+  border-radius:20px;
+padding-top:7px;
+padding-bottom:7px;
+padding-left:50px;
+padding-right:50px;
+  border:none;
+  cursor:pointer;
+  transition: background-color 0.15s , color 0.15s;
+}
+.buy-now:hover{
+  background-color: white;
+  color:#bc4b51;
+}
+
+.add-to-cart{
+  color:white;
+  font-family:Roboto Condensed,Arial;
+  font-size:17px;
+  background-color: #2d525d;
+  border-radius:20px;
+padding-top:7px;
+padding-bottom:7px;
+padding-left:50px;
+padding-right:50px;
+  border:none;
+  cursor:pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.add-to-cart:hover{
+  background-color: white;
+  color:#2d525d;
+}
