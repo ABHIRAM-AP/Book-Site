@@ -1,8 +1,15 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family:Roboto Condensed,Arial;
   background-color: #ffebcd;
   margin: 0;
   padding: 0;
+}
+.marquee{
+  margin-top:10px;
+  height: 18px;
+  box-shadow: inset 5px -3px 10px rgba(0, 0, 0, 0.15);
+  display:block;
+  
 }
 .container {
   max-width: 800px;
@@ -14,7 +21,8 @@ body {
   padding: 50px 0;
 }
 .header img {
-  height: 100px;
+  height: 270px;
+  width:300px;
 }
 .header h1 {
   margin: 20px 0 10px;
